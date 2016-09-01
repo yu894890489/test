@@ -143,7 +143,12 @@
             <groupId>org.apache.ant</groupId>  
             <artifactId>ant</artifactId>  
             <version>1.7.0</version>  
-        </dependency> 
+        </dependency>
+        <dependency>
+        	<groupId>javax.servlet</groupId>
+        	<artifactId>servlet-api</artifactId>
+        	<version>2.5</version>
+        </dependency>
   </dependencies>
   <build>
     <finalName>testMaven</finalName>
@@ -170,7 +175,7 @@
 			<plugin>
 			  <groupId>org.eclipse.jetty</groupId>
 			  <artifactId>jetty-maven-plugin</artifactId>
-			  <version>9.2.18.v20160721</version> <!-- latest at time of writing -->
+			  <version>9.0.0.M3</version> <!-- latest at time of writing -->
 			</plugin>
         <plugin>  
             <groupId>org.apache.maven.plugins</groupId>  
